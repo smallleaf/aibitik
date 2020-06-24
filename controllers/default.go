@@ -17,3 +17,7 @@ func (c *MainController) Get() {
 func (c *MainController) Json() {
 	c.TplName = "json.html"
 }
+
+func (c *MainController) Test() {
+	c.TplName = "test.html"
+}
